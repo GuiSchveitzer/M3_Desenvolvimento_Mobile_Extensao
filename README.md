@@ -32,7 +32,7 @@ Aplicativo Android desenvolvido em Java que propõe desafios diários ao usuári
 
 ## 🗂️ Estrutura do Projeto
 
-\`\`\`
+```
 📁 app/
 ├── java/com/example/m3_desenvolvimento_mobile_extensao/
 │   ├── banco_de_dados/
@@ -44,7 +44,7 @@ Aplicativo Android desenvolvido em Java que propõe desafios diários ao usuári
 │   ├── MainActivity.java
 │   ├── HistoryActivity.java
 │   └── MainApplication.java
-\`\`\`
+```
 
 ---
 
@@ -91,9 +91,9 @@ Aplicativo Android desenvolvido em Java que propõe desafios diários ao usuári
 ## 📦 Instalação e Execução
 
 1. Clone o repositório:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   \`\`\`
+   ```
 
 2. Abra no **Android Studio**.
 
@@ -105,9 +105,9 @@ Aplicativo Android desenvolvido em Java que propõe desafios diários ao usuári
 
 ## 📄 Exemplo de Item do Histórico (layout)
 
-\`\`\`xml
+```xml
 <LinearLayout>
    <TextView android:id="@+id/textViewDescricaoHistorico" />
    <TextView android:id="@+id/textViewDataHistorico" />
 </LinearLayout>
-\`\`\`
+```
