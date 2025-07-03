@@ -50,7 +50,7 @@ Aplicativo Android desenvolvido em Java que propõe desafios diários ao usuári
 
 ## 🧠 Arquitetura (MVVM + Repository)
 
-\`\`\`
+```
 [View] MainActivity, HistoryActivity
     ⬇ Observa
 [ViewModel] MainViewModel
@@ -58,7 +58,7 @@ Aplicativo Android desenvolvido em Java que propõe desafios diários ao usuári
 [Repository] RepositorioAtividades
     ⬇                 ⬇
 [Retrofit API]     [Room DB + SharedPreferences]
-\`\`\`
+```
 
 ---
 
